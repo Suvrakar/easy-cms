@@ -15,7 +15,7 @@ app.use(cors());
 
 // MongoDB Connection
 mongoose
-  .connect("mongodb+srv://Suvra:01711536682Suv@cluster1.tavxzqu.mongodb.net ", {
+  .connect("mongodb+srv://Suvra:01711536682Suv@cluster1.tavxzqu.mongodb.net", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
